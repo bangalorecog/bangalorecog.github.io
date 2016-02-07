@@ -2,8 +2,8 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
-    background-image: url("../images/bgImg.gif");
-    background-repeat: repeat;
+    /*background-image: url("../images/bgImg.gif");
+    background-repeat: repeat;*/
 }
 
 .container {
@@ -15,33 +15,19 @@ body {
 
 .nav-bar {
     background-color: #FFFFFF;
-    height: 135px;
-    z-index: 101;   
-    border-bottom: 8px solid #FFFE91;
+    height: 75px;
+    z-index: 101;
+    position: absolute;
+    width:100%;   
+    border-bottom: 4px solid #FFFE91;
     /*background-image: url("../images/nav-bg.jpg");
     background-size: 100% 100%;*/
 }
 
-.name-container {
-    display: inline-block;
-    height: 100%;
-    font-family: 'NTR', sans-serif;
-}
-
-.logo-container {
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 60px;
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-    background-color: #666666;
-}
-
 .main-logo {
-    height: 60px;
-    width: 60px;
     margin: 5px;
+    width:275px;
+    height:65px;
 }
 
 .title-name {
@@ -65,7 +51,7 @@ body {
 
 .nav-menu {
     font-size: 16px;
-    margin-top: 60px;
+    margin-top: 27px;
     text-align: right;
     font-family: 'NTR', sans-serif;
 }
@@ -82,14 +68,16 @@ body {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-
+.section1-bg{
+    height:525px;
+}
 .carousel-section {
-    margin-top: 95px;
+    /*margin-top: 95px;*/
 }
 
 .carousel-bg {
     width: 100%;
-    height: 400px;
+    height:100%;
 }
 .section-cn{
 	margin-top:30px;
