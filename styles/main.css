@@ -14,7 +14,7 @@ body {
 }
 
 .nav-bar {
-    background-color: #23343b;
+    /*background-color: #23343b;*/
     height: 75px;
     z-index: 101;
     position: absolute;
@@ -31,7 +31,9 @@ body {
     height:65px;
 }
 .name-container{
-    background-color:#fff; 
+    /*background-color:#fff; */
+    margin-top: 5px;
+    left: 35px;
 }
 .title-name {
     display: inline-block;
@@ -67,12 +69,24 @@ body {
 .nav-menu-option:hover {
     border-bottom: 3px solid #ff5738;
     cursor: pointer;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+    transition: 1s all linear;
+    -webkit-transition: 1s all linear;
+    -moz-transition: 1s all ease;
+    -o-transition: 1s all ease;
+    -ms-transition: 1s all ease;
 }
 .section1-bg{
-    height:525px;
+    height:575px;
+}
+.welcome-text{
+        width: 600px;
+    height: 70%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.welcome-text img{
+    width:100%;
+    height:100%;
 }
 .carousel-section {
     /*margin-top: 95px;*/
@@ -100,9 +114,19 @@ body {
 }
 .link-button-sec{
 	text-align: center;
-	border: 3px double #666;
+	border: 1px solid #666;
 	cursor:pointer;
 	font-size:14px;
+    width: 140px;
+}
+.link-button-sec:hover{
+    background-color:#ff5738;
+    color:#fff;
+    transition:1s all ease;
+    -webkit-transition:1s all ease;
+    -moz-transition:1s all ease;
+    -o-transition:1s all ease;
+    -ms-transition:1s all ease;
 }
 
 .main-section-container{
