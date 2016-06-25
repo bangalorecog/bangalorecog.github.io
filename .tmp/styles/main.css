@@ -4,6 +4,9 @@ body {
   background-repeat: repeat;
   font-family: 'Cairo', sans-serif;
 }
+.container-fluid .hr-cl {
+  margin: 25px 0px;
+}
 .container-fluid .hm-footer {
   height: 80px;
   background-color: #000;
@@ -261,8 +264,14 @@ body {
   line-height: 22px;
   margin: 0 50px 10px 50px;
 }
+.container-fluid .sec-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 25px;
+  margin: 13px 0 13px 10px;
+  font-weight: bold;
+}
 .container-fluid .abt-main .abt-banner {
-  background-color: #ddd;
   background-image: url('../images/bn1.jpg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -270,7 +279,11 @@ body {
 }
 .container-fluid .abt-main .abt-banner .about-cont {
   margin-top: 170px;
-  height: 599px;
+  height: 100%;
   background-color: #fff;
+}
+.container-fluid .abt-main .abt-banner .about-cont .abt-cnt {
+  font-size: 16px;
+  padding: 10px 25px;
 }
 /*# sourceMappingURL=.tmp/styles/main.css.map */
