@@ -4,6 +4,25 @@ body {
   background-repeat: repeat;
   font-family: 'Cairo', sans-serif;
 }
+.container-fluid .hm-footer {
+  height: 80px;
+  background-color: #000;
+  margin-top: 25px;
+}
+.container-fluid .hm-footer .copyright-data {
+  margin-top: 25px;
+  color: #fff;
+}
+.container-fluid .hm-footer .social-cont {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 25px 10px;
+}
+.container-fluid .hm-footer .social-cont img {
+  width: 100%;
+  height: 100%;
+}
 .container-fluid .read-more {
   font-size: 16px;
   margin: 15px;
@@ -207,13 +226,14 @@ body {
 }
 .container-fluid .banner-sec .content-body .sub-cont .sec-blog .sec-blog-sub .blog-bx {
   border-bottom: 1px solid #ddd;
-  height: 210px;
+  height: 205px;
   padding: 20px 10px;
 }
 .container-fluid .banner-sec .content-body .sub-cont .sec-blog .sec-blog-sub .blog-bx .blog-img {
   width: 35%;
   height: 100%;
   display: inline-block;
+  vertical-align: top;
 }
 .container-fluid .banner-sec .content-body .sub-cont .sec-blog .sec-blog-sub .blog-bx .blog-img img {
   width: 100%;
@@ -222,6 +242,7 @@ body {
 .container-fluid .banner-sec .content-body .sub-cont .sec-blog .sec-blog-sub .blog-bx .blog-right {
   padding: 5px 10px;
   display: inline-block;
+  width: 64%;
 }
 .container-fluid .banner-sec .content-body .sub-cont .sec-blog .sec-blog-sub .blog-bx .blog-right .title {
   font-size: 22px;
@@ -239,4 +260,23 @@ body {
   font-size: 17px;
   line-height: 22px;
   margin: 0 50px 10px 50px;
+}
+.container-fluid .sec-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 25px;
+  margin: 13px 0 13px 10px;
+  font-weight: bold;
+}
+.container-fluid .abt-main .abt-banner {
+  background-color: #ddd;
+  background-image: url('../images/bn1.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 110px;
+}
+.container-fluid .abt-main .abt-banner .about-cont {
+  margin-top: 170px;
+  height: 599px;
+  background-color: #fff;
 }
