@@ -702,7 +702,10 @@
         height: 190px;
     }
     .activity-box .activity-content {
+        display: inline-block;
         width: 165px;
+        vertical-align: top;
+        padding-top: 20px;
     }
     .contact-section {
         position: relative;
