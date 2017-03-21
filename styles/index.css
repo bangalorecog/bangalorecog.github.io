@@ -83,7 +83,7 @@
 }
 
 .about-cogk-container .content {
-    font-size: 15px;
+    font-size: 17px;
     text-align: justify;
     font-style: italic;
     line-height: 32px;
@@ -100,7 +100,18 @@
 }
 
 .join-us-container {
-    background-color: #666666;
+    //background-color: #666666;
+    background: url(../images/worship.jpg);
+    position: relative;
+}
+
+.join-overlay {
+    background-color: rgba(41, 39, 39, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
 }
 
 .common-sec-style {
@@ -110,6 +121,7 @@
 
 .join-us-container .title {
     color: #ffffff;
+    position: relative;
 }
 
 .join-us-container .read-more-btn {
@@ -118,6 +130,7 @@
 
 .service-main-cont {
     text-align: center;
+    position: relative;
 }
 
 .service-cont {
@@ -128,11 +141,11 @@
     padding: 20px;
     border-radius: 5px;
     text-align: center;
-    margin: 15px;
+    margin: 17px;
 }
 
 .service-name {
-    font-size: 18px;
+    font-size: 17px;
     padding: 10px;
 }
 
@@ -151,7 +164,7 @@
 }
 
 .pastor-container .content {
-    font-size: 18px;
+    font-size: 17px;
     text-align: justify;
     font-style: italic;
     line-height: 32px;
@@ -234,7 +247,7 @@
 
 .blog-inner-ctr .b-content {
     color: #666666;
-    font-size: 18px;
+    font-size: 17px;
     margin: 10px 0;
 }
 
@@ -362,6 +375,11 @@
     display: none;
 }
 
+.map-style{
+    width:100%;
+    height:400px;
+}
+
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
     .nav-container {
         float: none;
@@ -470,7 +488,7 @@
         border-radius: 50px;
         padding: 10px;
         color: #fff;
-        font-size: 18px;
+        font-size: 17px;
         cursor: pointer;
     }
     .nav-container {
@@ -610,7 +628,7 @@
         border-radius: 50px;
         padding: 10px;
         color: #fff;
-        font-size: 18px;
+        font-size: 17px;
         cursor: pointer;
     }
     .nav-container {
