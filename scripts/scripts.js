@@ -38,14 +38,24 @@
 
     });
 
+
+    var contentString = '<div style="font-weight: bold;">Church of God in India <br/>Koramangala, Bangalore, <br/>Karnataka.</div>';
+
     function initMap() {
         var uluru = { lat: 12.939629, lng: 77.625979 };
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 14,
-            center: uluru
+            center: uluru,
+            scrollwheel: false
         });
+
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
         var marker = new google.maps.Marker({
             position: uluru,
             map: map
         });
+        infowindow.open(map, marker);
     }
