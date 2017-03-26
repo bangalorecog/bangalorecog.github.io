@@ -1,0 +1,725 @@
+.fullpage {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.read-more-btn {
+    padding: 8px 25px;
+    border: 2px solid #f36100;
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: 30px;
+    transform: translate(-50%);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.read-more-btn:hover {
+    background-color: #f36100;
+    color: #fff;
+}
+
+.nav-container {
+    text-align: right;
+    float: right;
+    margin: 20px 30px 0 0;
+}
+
+.nav-container > ul > li {
+    display: inline-block;
+}
+
+.nav-container > ul >li > a {
+    display: block;
+    text-decoration: none;
+    color: #666666;
+    padding: 20px 20px 10px 20px;
+}
+
+.nav-container > ul >li > a:hover {
+    color: #f36100;
+    border-bottom: 2px solid #666;
+}
+
+.nav-container > ul >li > .active {
+    color: #f36100;
+    border-bottom: 2px solid #666;
+}
+
+.logo-container {
+    display: inline-block;
+}
+
+.logo-container>img {
+    width: 500px;
+    margin: 20px 0 0 20px;
+}
+
+.slider-section {
+    margin-top: 20px;
+}
+
+.slider-content {
+    height: 500px;
+    background-color: #ddd;
+}
+
+.slider-content img {
+    width: 100%;
+}
+
+.about-cogk-container {
+    margin: 0 auto;
+    padding: 30px 60px;
+}
+
+.about-cogk-container .title {
+    font-size: 62px;
+    color: #221e1e;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.about-cogk-container .content {
+    font-size: 17px;
+    text-align: justify;
+    font-style: italic;
+    line-height: 32px;
+    color: #666666;
+    padding: 10px 40px;
+}
+
+.title {
+    font-size: 62px;
+    color: #221e1e;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    padding: 10px;
+}
+
+.join-us-container {
+    //background-color: #666666;
+    background: url(../images/worship.jpg);
+    position: relative;
+}
+
+.join-overlay {
+    background-color: rgba(41, 39, 39, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.common-sec-style {
+    padding: 30px 60px;
+    margin: 30px 0;
+}
+
+.join-us-container .title {
+    color: #ffffff;
+    position: relative;
+}
+
+.join-us-container .read-more-btn {
+    color: #ffffff;
+}
+
+.service-main-cont {
+    text-align: center;
+    position: relative;
+}
+
+.service-cont {
+    display: inline-block;
+    width: 350px;
+    background-color: #fff;
+    color: #666666;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 17px;
+}
+
+.service-name {
+    font-size: 17px;
+    padding: 10px;
+}
+
+.service-time {
+    font-size: 16px;
+}
+
+.pastor-image-cont {
+    width: 390px;
+    padding: 0 80px;
+    display: inline-block;
+}
+
+.pastor-image-cont img {
+    width: 100%;
+}
+
+.pastor-container .content {
+    font-size: 17px;
+    text-align: justify;
+    font-style: italic;
+    line-height: 32px;
+    color: #666666;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.blog-container {
+    height: 400px;
+    position: relative;
+    background: url('../images/banner1.jpg');
+}
+
+.blog-container .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(99, 91, 91, 0.58);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.blog-inner-ctr {
+    z-index: 2;
+    position: relative;
+}
+
+.blog-inner-ctr .title {
+    text-shadow: 1px 1px #666;
+    color: #fff;
+}
+
+.blog-container {
+    min-height: 400px;
+    height: 100%;
+    background-size: cover;
+}
+
+.blog-inner-ctr .content-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog-inner-ctr .content-box .blog-box {
+    height: 250px;
+    min-width: 500px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.blog-inner-ctr .img-ctr {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.blog-inner-ctr .img-ctr img {
+    width: 100%;
+    height: 230px;
+}
+
+.blog-inner-ctr .content-ctr {
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.blog-inner-ctr .b-title {
+    color: #221e1e;
+    font-size: 24px;
+}
+
+.blog-inner-ctr .b-content {
+    color: #666666;
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.activity-container .activity-box-ctr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.activity-container .activity-box {
+    margin: 10px;
+    background-color: #ddd;
+    border-radius: 3px;
+    height: 100px;
+    width: 350px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #666 !important;
+}
+
+.activity-box .date-box {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background-color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.date-box .activity-date {
+    font-size: 36px;
+    color: #666;
+}
+
+.activity-box .activity-content {
+    display: inline-block;
+    width: 230px;
+    vertical-align: middle;
+    height: 70px;
+    padding-left: 10px;
+}
+
+.contact-container {
+    background: url('../images/Bangalore.jpg');
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.contact-container .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 14, 14, 0.73);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.contact-section {
+    position: relative;
+    z-index: 2;
+    width: 50%;
+    /*background-color: #fff;*/
+}
+
+.follow-section {
+    position: relative;
+    z-index: 2;
+    width: 50%;
+}
+
+.request-section {
+    position: relative;
+    z-index: 2;
+    width: 50%;
+}
+
+.con-title {
+    text-align: center;
+    padding: 30px 10px;
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    color: #ffffff;
+    z-index: 2;
+    width: 100%;
+    height: 55px;
+    position: relative;
+}
+
+.con-addr {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+    color: rgba(234, 234, 234, 0.82);
+    z-index: 2;
+    position: relative;
+}
+
+.con-email {
+    color: #90d8d8;
+}
+
+.header-res-bar {
+    display: none;
+}
+
+.map-style {
+    width: 100%;
+    height: 400px;
+}
+
+.follow-box {
+    width: 320px;
+    position: relative;
+}
+
+.follow-icon-ctr {
+    display: inline-block;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .nav-container {
+        float: none;
+        text-align: center;
+    }
+    header {
+        text-align: center;
+    }
+    .nav-container > ul > li {
+        display: inline-block;
+        margin: 20px;
+    }
+    .fullpage {
+        max-width: 1280px;
+    }
+    .join-us-container {
+        text-align: center;
+    }
+    .join-us-container .read-more-btn {
+        margin-left: 0;
+        transform: translate(0);
+    }
+    .pastor-image-cont {
+        width: 350px;
+        padding: 0px 50px;
+        display: inline-block;
+    }
+    .pastor-container .content {
+        width: 45%;
+    }
+    .blog-inner-ctr .img-ctr {
+        width: 175px;
+    }
+    .blog-inner-ctr .content-box .blog-box {
+        min-width: 450px;
+    }
+    .blog-inner-ctr .content-ctr {
+        width: 225px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .nav-container {
+        float: none;
+        text-align: center;
+        height: 0px;
+    }
+    header {
+        text-align: center;
+    }
+    .nav-container > ul > li {
+        display: inline-block;
+        margin: 10px;
+    }
+    .fullpage {
+        max-width: 1024px;
+    }
+    .pastor-container.common-sec-style {
+        text-align: center;
+    }
+    .pastor-container .content {
+        width: 85%;
+    }
+    .blog-inner-ctr .img-ctr {
+        width: 175px;
+    }
+    .blog-inner-ctr .content-box .blog-box {
+        min-width: 450px;
+    }
+    .blog-inner-ctr .content-ctr {
+        width: 225px;
+    }
+    .activity-box .activity-content {
+        width: 170px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width:768px) {
+    /*.about-cogk-container,*/
+    /*.join-us-container,*/
+    /*.pastor-container,*/
+    /*.blog-container,*/
+    /*.activity-container,*/
+    /*.contact-container {
+        display: none;
+    }*/
+    header {
+        text-align: center;
+    }
+    .logo-container {
+        display: inline-block;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .logo-container img {
+        width: 100%;
+    }
+    .header-res-bar {
+        height: 25px;
+        width: 70%;
+        display: block;
+        background-color: #666;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 50px;
+        padding: 10px;
+        color: #fff;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    .nav-container {
+        display: block;
+        float: none;
+        text-align: center;
+        height: 0px;
+        overflow: hidden;
+        transition: height 0.3s linear;
+    }
+    .nav-container > ul > li {
+        display: block;
+    }
+    .nav-container > ul >li > a:hover {
+        color: #f36100;
+        border-bottom: none;
+    }
+    .nav-container > ul >li > .active {
+        color: #f36100;
+        border-bottom: none;
+    }
+    .fullpage {
+        max-width: 4768px;
+    }
+    .title {
+        font-size: 42px;
+    }
+    .slider-section {
+        display: none;
+    }
+    .about-cogk-container .title {
+        font-size: 42px;
+    }
+    .about-cogk-container .content {
+        font-size: 17px;
+        padding: 10px 0px;
+    }
+    .service-cont {
+        width: 275px;
+    }
+    .service-name {
+        font-size: 17px;
+    }
+    .pastor-image-cont {
+        width: 100%;
+        padding: 0px;
+    }
+    .pastor-container.common-sec-style {
+        text-align: center;
+    }
+    .pastor-container .content {
+        width: 95%;
+        font-size: 17px;
+    }
+    .activity-box .activity-content {
+        width: 185px;
+    }
+    .blog-inner-ctr .img-ctr {
+        width: 175px;
+    }
+    .blog-inner-ctr .content-box .blog-box {
+        min-width: 450px;
+        height: 210px;
+    }
+    .blog-inner-ctr .content-ctr {
+        width: 225px;
+    }
+    .blog-inner-ctr .b-title {
+        font-size: 17px;
+    }
+    .blog-inner-ctr .b-content {
+        font-size: 16px;
+    }
+    .blog-inner-ctr .img-ctr img {
+        height: 190px;
+    }
+    .contact-section {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        display: block;
+        /*background-color: #fff;*/
+    }
+    .contact-container {
+        background-repeat: no-repeat;
+        height: 100%;
+        background-size: cover;
+    }
+    .con-title {
+        font-size: 42px;
+    }
+    .show-menu {
+        /*display: block !important;*/
+        height: 350px;
+        transition: height 0.3s linear;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width:480px) {
+    /*.about-cogk-container,*/
+    /*.join-us-container,*/
+    /*.pastor-container,*/
+    /*.blog-container,*/
+    /*.activity-container,*/
+    /*.contact-container {
+        display: none;
+    }*/
+    header {
+        text-align: center;
+    }
+    .logo-container {
+        display: inline-block;
+        width: 95%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .logo-container img {
+        width: 100%;
+    }
+    .header-res-bar {
+        height: 25px;
+        width: 70%;
+        display: block;
+        background-color: #666;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 50px;
+        padding: 10px;
+        color: #fff;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    .nav-container {
+        display: block;
+        float: none;
+        text-align: center;
+        height: 0px;
+        overflow: hidden;
+        transition: height 0.3s linear;
+    }
+    .nav-container > ul > li {
+        display: block;
+    }
+    .nav-container > ul >li > a:hover {
+        color: #f36100;
+        border-bottom: none;
+    }
+    .nav-container > ul >li > .active {
+        color: #f36100;
+        border-bottom: none;
+    }
+    .title {
+        font-size: 42px;
+    }
+    .slider-section {
+        display: none;
+    }
+    .show-menu {
+        /*display: block !important;*/
+        height: 350px;
+        transition: height 0.3s linear;
+    }
+    .about-cogk-container {
+        padding: 30px;
+    }
+    .about-cogk-container .title {
+        font-size: 42px;
+    }
+    .about-cogk-container .content {
+        font-size: 17px;
+        padding: 10px 0px;
+    }
+    .read-more-btn {
+        margin-top: 10px;
+        text-align: center;
+        width: 150px;
+    }
+    .service-cont {
+        width: 200px;
+    }
+    .service-name {
+        font-size: 17px;
+    }
+    .pastor-image-cont {
+        width: 100%;
+        padding: 0px;
+    }
+    .pastor-container.common-sec-style {
+        text-align: center;
+    }
+    .pastor-container .content {
+        width: 95%;
+        font-size: 17px;
+    }
+    .common-sec-style {
+        padding: 30px 30px;
+        margin: 30px 0;
+    }
+    .blog-inner-ctr .img-ctr {
+        width: 175px;
+        display: none
+    }
+    .blog-inner-ctr .content-box .blog-box {
+        min-width: 250px;
+        height: 150px;
+    }
+    .blog-inner-ctr .content-ctr {
+        width: 225px;
+        text-align: center;
+    }
+    .blog-inner-ctr .b-title {
+        font-size: 21px;
+    }
+    .blog-inner-ctr .b-content {
+        font-size: 16px;
+    }
+    .blog-inner-ctr .img-ctr img {
+        height: 190px;
+    }
+    .activity-box .activity-content {
+        display: inline-block;
+        width: 165px;
+        vertical-align: top;
+        padding-top: 20px;
+    }
+    .contact-section {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        display: block;
+    }
+    .contact-container {
+        background-repeat: no-repeat;
+        height: 100%;
+        background-size: cover;
+    }
+    .con-title {
+        font-size: 42px;
+    }
+}
