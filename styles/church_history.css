@@ -1,0 +1,24 @@
+.history-content > p {
+    text-align: justify;
+    line-height: 22px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.ch_table table,
+td,
+th {
+    border: 1px solid #666;
+    padding:5px 10px; 
+    width:500px;
+}
+
+.pas-img-con{
+    display: inline-block;
+    width:450px;
+}
+.pas-img-con img{
+    width:100%;
+}

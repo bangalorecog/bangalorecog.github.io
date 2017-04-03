@@ -1,0 +1,24 @@
+.pastor-name {
+    color: #f36100;
+}
+
+.pas-img-con {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.pas-img-con img {
+    width: 100%;
+}
+
+.intro-verse{
+	text-align: center;
+	font-size: 21px;
+	font-weight: bold;
+	margin:30px;
+}
+.pastor-signature{
+	text-align: right;
+	line-height: 27px;
+	color: #666;
+}
