@@ -2,6 +2,11 @@ h1 {
     font-size: 36px;
     color: #221e1e;
 }
+
+h2{
+    color: #f36100;
+}
+
 .page-outer-style {
     margin: 70px 150px;
 }

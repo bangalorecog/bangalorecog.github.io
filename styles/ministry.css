@@ -1,0 +1,48 @@
+.verse{
+	color:#000;
+	font-size:18px;
+	font-weight: bold;
+	text-align: center;
+	padding:20px;
+}
+
+.verse-ref{
+	font-size: 14px;
+	font-weight: 400px;
+	text-align: right;
+	padding-right:40px;
+}
+
+.sunday-school-content{
+	color: #666;
+}
+
+section{
+	margin:70px 5px;
+	border-bottom: 1px solid #ddd;
+}
+
+.sunday-school-content table{
+margin: 30px 10px;
+}
+
+.sunday-school-content table tr th,
+td {
+    border: 1px solid #ddd;
+}
+
+.sunday-school-content table {
+    border-collapse: collapse;
+    line-height: 22px;
+}
+
+.sunday-school-content th {
+    background-color: #e5e5e5;
+    color: #000;
+}
+
+.sunday-school-content th,
+td {
+    width: 240px;
+    padding: 5px 10px;
+}

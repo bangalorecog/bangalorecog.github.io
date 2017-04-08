@@ -1,0 +1,10 @@
+{
+  "name": "cogk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alwinpaul/cogk.git",
+  "license": "MIT",
+  "dependencies": {
+    "nanogallery2": "^1.2.1"
+  }
+}

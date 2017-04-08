@@ -1,0 +1,28 @@
+.about-us-content{
+	color: #666;
+}
+
+.about-us-content li {
+    line-height: 27px;
+}
+
+.office-bearers-content table tr th,
+td {
+    border: 1px solid #ddd;
+}
+
+.office-bearers-content table {
+    border-collapse: collapse;
+    line-height: 22px;
+}
+
+.office-bearers-content th {
+    background-color: #e5e5e5;
+    color: #000;
+}
+
+.office-bearers-content th,
+td {
+    width: 240px;
+    padding: 5px 10px;
+}

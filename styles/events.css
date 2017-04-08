@@ -1,0 +1,20 @@
+.events-content{
+	color:#666;
+}
+
+.events-content table tr th,td{
+	border: 1px solid #ddd;
+}
+.events-content table{
+	border-collapse: collapse;
+	line-height: 22px;
+}
+.events-content th{
+	background-color: #e5e5e5;
+	color:#000;
+}
+.events-content th,td{
+	width: 240px;
+	padding: 5px 10px;
+
+}
