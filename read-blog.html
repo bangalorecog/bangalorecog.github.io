@@ -99,7 +99,7 @@
     $.ajax({
         url: "/blog.json",
         dataType: 'jsonp'
-    }).done(function(data) {
+    }).success(function(data) {
         console.log(data[blogId].title);
         $("#loader").hide();
         $("#title_blog").html(data[blogId].title);
