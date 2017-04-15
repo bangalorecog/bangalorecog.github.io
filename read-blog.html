@@ -98,7 +98,6 @@
 
     $.ajax({
         url: "/blog.json",
-        dataType: 'jsonp'
     }).success(function(data) {
         console.log(data[blogId].title);
         $("#loader").hide();
