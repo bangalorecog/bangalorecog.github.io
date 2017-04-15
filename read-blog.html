@@ -83,28 +83,29 @@
     </div>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script>
-    // function getParameterByName(name, url) {
-    //     if (!url) {
-    //         url = window.location.href;
-    //     }
-    //     name = name.replace(/[\[\]]/g, "\\$&");
-    //     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-    //         results = regex.exec(url);
-    //     if (!results) return null;
-    //     if (!results[2]) return '';
-    //     return decodeURIComponent(results[2].replace(/\+/g, " "));
-    // }
-    // var blogId = getParameterByName('id');
+    function getParameterByName(name, url) {
+        if (!url) {
+            url = window.location.href;
+        }
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+    var blogId = getParameterByName('id');
 
-    // $.ajax({
-    //     url: "/blog.json"
-    // }).done(function(data) {
-    //     console.log(data[blogId].title);
-    //     $("#loader").hide();
-    //     $("#title_blog").html(data[blogId].title);
-    //     $("#body_blog").html(data[blogId].content);
-    //     $("#img_blog").attr("src",data[blogId].image);
-    // })
+    $.ajax({
+        url: "/blog.json",
+        dataType: 'jsonp'
+    }).done(function(data) {
+        console.log(data[blogId].title);
+        $("#loader").hide();
+        $("#title_blog").html(data[blogId].title);
+        $("#body_blog").html(data[blogId].content);
+        $("#img_blog").attr("src",data[blogId].image);
+    })
     </script>
 </body>
 
